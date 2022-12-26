@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "minimist": "^1.2.7"
+    "axios": "^1.2.1",
+    "minimist": "^1.2.7",
+    "ora": "^6.1.2"
   }
 }
