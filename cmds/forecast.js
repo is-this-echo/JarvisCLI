@@ -1,5 +1,6 @@
 const ora = require("ora");
 const weatherData = require("../utils/weather_forecast");
+const getLocation = require("../utils/location");
 
 const kelvinToCelsius = (temp) => {
   return Math.round(temp - 273.15);
@@ -9,7 +10,7 @@ module.exports = async (args) => {
   const spinner = ora().start();
 
   try {
-    const location = args.location || args.l;
+    const location = args.location || args.l || (await getLocation());
     const weather = await weatherData(location);
 
     spinner.stop();
