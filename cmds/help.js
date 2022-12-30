@@ -1,18 +1,19 @@
 const menus = {
   main: `
-    nodecli [command] <options>
+    jarvis [command] <options>
     
     today ............ show weather for today
+    forecast ......... show weather forecast for next 5 days
     version .......... show package version
     help ............. show help menu for a command`,
 
   today: `
-    nodecli today <options>
+    jarvis today <options>
 
     --location, -l ..... the location to use`,
 
   forecast: `
-    nodecli forecast <options>
+    jarvis forecast <options>
 
     --location, -l ..... the location to use`,
 };
