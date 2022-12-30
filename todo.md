@@ -11,7 +11,7 @@
 - [ ] nlp endpoints from flask app (python)
 - [ ] open google chrome, mozilla
 - [ ] google maps integration
-- [x]'whereami' command
+- [x] 'whereami' command
 - [ ] show top 20 university rankings by qs<year>
 - [ ] get dowjones, nifty and banknifty ltp
 - [ ] meaning of some word
