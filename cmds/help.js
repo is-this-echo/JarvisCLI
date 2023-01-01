@@ -4,6 +4,7 @@ const menus = {
     
     today ............ show weather for today
     forecast ......... show weather forecast for next 5 days
+    whereami ......... gives your current location on earth
     version .......... show package version
     help ............. show help menu for a command`,
 
@@ -16,6 +17,12 @@ const menus = {
     jarvis forecast <options>
 
     --location, -l ..... the location to use`,
+
+  whereami: `
+    jarvis whereami 
+
+    .... tell your current location on earth
+  `,
 };
 
 module.exports = (args) => {

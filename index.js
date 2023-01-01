@@ -4,7 +4,7 @@ const error = require("./utils/error");
 module.exports = () => {
   const args = minimist(process.argv.slice(2));
 
-  // default command if nothing else is mentioned wiht the cli
+  // default command if nothing else is mentioned with the cli
   let cmd = args._[0] || "help";
 
   if (args.version || args.v) cmd = "version";
@@ -26,6 +26,10 @@ module.exports = () => {
 
     case "forecast":
       require("./cmds/forecast")(args);
+      break;
+
+    case "whereami":
+      require("./cmds/whereami")(args);
       break;
 
     default:

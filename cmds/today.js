@@ -17,11 +17,10 @@ module.exports = async (args) => {
     const modifiedLocation =
       location.charAt(0).toUpperCase() + location.slice(1);
 
-    console.log(`Present conditions in ${modifiedLocation}:`);
-    console.log(`\t${tempInCelsius}°C | ${weather.weather[0].main}`);
+    console.log(` Present conditions in ${modifiedLocation}:`);
+    console.log(` \t${tempInCelsius}°C | ${weather.weather[0].main}`);
   } catch (err) {
     spinner.stop();
-
     console.error(err);
   }
 };
