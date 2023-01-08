@@ -1,5 +1,5 @@
 {
-  "name": "jarviscli",
+  "name": "@is-this-echo/jarviscli",
   "version": "1.0.0",
   "description": "A cli tool that performs various tasks",
   "main": "index.js",
