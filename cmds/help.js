@@ -5,6 +5,7 @@ const menus = {
     today ............ show weather for today
     forecast ......... show weather forecast for next 5 days
     whereami ......... gives your current location on earth
+    meaning .......... provides the meaning of input word
     version .......... show package version
     help ............. show help menu for a command`,
 
@@ -22,6 +23,12 @@ const menus = {
     jarvis whereami 
 
     .... tell your current location on earth
+  `,
+
+  meaning: `
+    jarvis meaning <word>
+
+    .... outputs the meaning of given word
   `,
 };
 

@@ -4,4 +4,4 @@
 
 <br/>
 
-![Sample pic of Jarvis-CLI](/cli-img.png)
+![Sample pic of Jarvis-CLI](/assets/cli-img.png)

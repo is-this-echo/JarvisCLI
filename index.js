@@ -32,6 +32,10 @@ module.exports = () => {
       require("./cmds/whereami")(args);
       break;
 
+    case "meaning":
+      require("./cmds/meaning")(args);
+      break;
+
     default:
       error(` "${cmd}" is not a valid command!`, true);
       break;

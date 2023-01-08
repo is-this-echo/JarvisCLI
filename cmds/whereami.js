@@ -11,8 +11,8 @@ module.exports = async (args) => {
 
     console.log(` looks like you are at ${location}...`);
     console.log(` playing Jarvis-cli on your terminal :)`);
-  } catch (error) {
+  } catch (err) {
     spinner.stop();
-    console.log(error);
+    console.log(err);
   }
 };
