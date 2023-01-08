@@ -14,7 +14,7 @@
 - [x] 'whereami' command
 - [ ] show top 20 university rankings by qs<year>
 - [ ] get dowjones, nifty and banknifty ltp
-- [ ] meaning of some word
+- [x] meaning of some word
 - [ ] imdb rating of series/movie along with no. of ratings
 - [ ] myanimelist ratings of animes (top x), take x input from user, default_val = 10
 - [ ] open incognito mode in chrome after signing with 'thebongbois' credentials
