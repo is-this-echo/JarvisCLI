@@ -1,6 +1,6 @@
 {
   "name": "@is-this-echo/jarviscli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A cli tool that performs various tasks",
   "main": "index.js",
   "bin": {
