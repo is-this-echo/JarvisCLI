@@ -4,7 +4,7 @@
 - [x] weather anywhere today and forecast for last 5 days
 - [ ] quotes, jokes -> tell me a quote
 - [ ] show calendar
-- [ ] play media files, music playlists
+- [x] play media files, music playlists
 - [ ] basic calculations
 - [ ] schedule tasks, appointments
 - [ ] chatgpt integration :)
