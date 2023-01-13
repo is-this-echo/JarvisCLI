@@ -11,9 +11,9 @@ module.exports = async (args) => {
     data.items.map(({ id, snippet = {} }) => {
       const { title, resourceId = {} } = snippet;
       console.log(
-        title,
+        `${title}`.brightCyan,
         "   ",
-        `https://www.youtube.com/watch?v=${resourceId.videoId}`
+        `https://www.youtube.com/watch?v=${resourceId.videoId}`.underline.green
       );
     });
   } catch (err) {

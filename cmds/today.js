@@ -18,7 +18,11 @@ module.exports = async (args) => {
       location.charAt(0).toUpperCase() + location.slice(1);
 
     console.log(` Present conditions in ${modifiedLocation}:`);
-    console.log(` \t${tempInCelsius}°C | ${weather.weather[0].main}`);
+    console.log(
+      ` \t${tempInCelsius}°C `.brightGreen +
+        "|" +
+        ` ${weather.weather[0].main}`.brightBlue
+    );
   } catch (err) {
     spinner.stop();
     console.error(err);

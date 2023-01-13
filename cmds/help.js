@@ -1,13 +1,20 @@
 const menus = {
   main: `
     jarvis [command] <options>
+
+    Options:
+    ^^^^^^^^^^^^^^^^^
+    -v, --version  prints the version no. of jarvis
+    -h, --help     helps you to know commands usage
     
-    today ............ show weather for today
-    forecast ......... show weather forecast for next 5 days
+    Few commands :
+    ^^^^^^^^^^^^^^^^^
+    today ............ display weather for today
+    forecast ......... display weather forecast for next 5 days
     whereami ......... gives your current location on earth
     meaning .......... provides the meaning of input word
-    version .......... show package version
-    help ............. show help menu for a command`,
+    version .......... display package version
+    help [command] ... display help menu for the command`,
 
   today: `
     jarvis today <options>

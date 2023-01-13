@@ -44,7 +44,11 @@ module.exports = async (args) => {
       const date = getFormattedDate(day.dt_txt);
 
       console.log(
-        ` \t${date} - Low: ${minTemp}°C | High: ${maxTemp}°C | ${weatherDesc}`
+        ` \t${date} - Low: ` +
+          ` ${minTemp}°C `.brightBlue +
+          ` | High: ` +
+          `${maxTemp}°C`.brightYellow +
+          ` | ${weatherDesc}`
       );
     });
   } catch (err) {

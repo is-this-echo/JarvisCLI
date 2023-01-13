@@ -9,7 +9,7 @@ module.exports = async (args) => {
 
     spinner.stop();
 
-    console.log(` looks like you are at ${location}...`);
+    console.log(` looks like you are at ` + `${location}...`.brightCyan);
     console.log(` playing Jarvis-cli on your terminal :)`);
   } catch (err) {
     spinner.stop();

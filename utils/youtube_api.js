@@ -6,7 +6,7 @@ const {
   youtubePlaylistId,
 } = require("../config/environment");
 
-const YOUTUBE_PLAYLIST_URL = `${youtubePlaylistApiUrl}?part=snippet&maxResults=50&playlistId=${youtubePlaylistId}&key=${youtubePlaylistApiKey}`;
+const YOUTUBE_PLAYLIST_URL = `${youtubePlaylistApiUrl}?part=snippet&maxResults=10&playlistId=${youtubePlaylistId}&key=${youtubePlaylistApiKey}`;
 
 module.exports = async (args) => {
   const results = await axios({

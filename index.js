@@ -1,4 +1,6 @@
 const minimist = require("minimist");
+const colors = require("colors");
+
 const error = require("./utils/error");
 
 module.exports = () => {
