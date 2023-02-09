@@ -9,12 +9,22 @@ const menus = {
     
     Few commands :
     ^^^^^^^^^^^^^^^^^
+    key .............. manage your api keys
     today ............ display weather for today
     forecast ......... display weather forecast for next 5 days
     whereami ......... gives your current location on earth
     meaning .......... provides the meaning of input word
     version .......... display package version
     help [command] ... display help menu for the command`,
+
+  key: `
+    jarvis key <options>
+
+    Commands:
+    ------------
+    set         Set API Key -- Get at https://api.openweathermap.org
+    show        Show API Key
+    remove      Remove saved API Key`,
 
   today: `
     jarvis today <options>
