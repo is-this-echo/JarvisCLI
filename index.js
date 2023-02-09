@@ -41,6 +41,10 @@ module.exports = () => {
     case "play-fav":
       require("./cmds/youtube")(args);
       break;
+      
+    case "key":
+      require("./cmds/apikey")(args);
+      break;
 
     default:
       error(` "${cmd}" is not a valid command!`, true);
